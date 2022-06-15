@@ -53,7 +53,6 @@ async def code(
     embed.add_field(name=f"Jackbox Party Pack {pack}", value="Bot made by BurAndDev#2495", inline=False)
     embed.set_image(url="https://cdn.cloudflare.steamstatic.com/steam/apps/" + str(steamid) + "/header.jpg?t=1644892505")
     await ctx.respond(embed=embed)
-    print(f"{bcolors.OKBLUE}Embed sent.")
 
 bot.run("put the token here")
 client.run("put the token here")
