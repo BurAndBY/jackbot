@@ -15,7 +15,6 @@ async def on_ready():
     await bot.change_presence(status=discord.Status.idle, activity=activity)
     print("Bot is ready!")
 
-#Request Command
 @bot.slash_command(guild_ids=[986299473678462976])
 async def code(
     ctx: discord.ApplicationContext,
